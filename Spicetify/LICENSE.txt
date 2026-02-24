@@ -1,0 +1,12 @@
+
+## Changes Made
+
+| Aspect | Before | After |
+|--------|--------|-------|
+| **Header** | Small text with emojis | Large ASCII art, no emojis |
+| **Structure** | Flat, repetitive code | Modular subroutines |
+| **Colors** | Hardcoded escape sequences | Centralized init routine |
+| **Bloat** | Progress bars, animations | Clean, static output |
+| **Compatibility** | ANSI-dependent | Basic ASCII fallback |
+
+The script now uses `call :subroutine` pattern for modularity, making it easier to maintain and modify individual sections.
